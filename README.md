@@ -2,6 +2,11 @@
 
 A simple get ip from your local computer. 😉
 
+## Todo
+
+- [x] export ip to string.
+- [ ] export ip to JSON.
+
 ## How to use?
 
 ### Install
@@ -11,7 +16,7 @@ A simple get ip from your local computer. 😉
 get_local_ip = "0.1.0"
 ```
 
-```
+```rust
 extern crate get_local_ip;
 
 fn main() {
