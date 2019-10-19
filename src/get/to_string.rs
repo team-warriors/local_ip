@@ -8,6 +8,7 @@ pub fn to_string() {
     .output()
     .expect("Failed to execute `ifconfig`");
   let stdout = String::from_utf8(output.stdout).unwrap();
+  // this regex inspired by https://github.com/tcr/rust-local-ip/blob/master/src/lib.rs
   let rule_regex = r#"(?m)^.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*$"#;
   let re = Regex::new(rule_regex).unwrap();
 

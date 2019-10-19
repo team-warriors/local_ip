@@ -1,6 +1,6 @@
 # local_ip
 
-A simple get ip from your local computer. 😉
+Simple library create with rust to get your IP in local computer.
 
 ## Todo
 
