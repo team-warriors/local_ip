@@ -3,6 +3,9 @@ name = "local_ip"
 version = "0.1.0"
 authors = ["Adiatma Kamarudin <adiatma.kamaarudin@ralali.com>"]
 edition = "2018"
+description = "Get your local IP address."
+license = "MIT"
+repository = "https://github.com/adiatma/local_ip.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
