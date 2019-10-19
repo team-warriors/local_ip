@@ -1,5 +1,5 @@
 [package]
-name = "local_ip"
+name = "get_local_ip"
 version = "0.1.0"
 authors = ["Adiatma Kamarudin <adiatma.kamaarudin@ralali.com>"]
 edition = "2018"
