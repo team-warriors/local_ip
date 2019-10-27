@@ -1,7 +1,8 @@
 extern crate get_local_ip;
 
-use get_local_ip::get::to_string;
+use get_local_ip::get;
 
 fn main() {
-  to_string();
+  // Example to use
+  println!("{:?}", get::to_string().unwrap());
 }

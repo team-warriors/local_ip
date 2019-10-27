@@ -1,25 +1,24 @@
 # local_ip
 
-✨ Simple library create with rust, to get your local ip.
+✨ Simple was made with rust, to get your local ip.
 
-## Todo
+## Getting Started.
 
-- [x] export ip to string.
-- [ ] export ip to JSON.
-
-## How to use?
-
-### Install
++ install
 
 ```
 [dependencies]
 get_local_ip = "0.1.0"
 ```
 
++ How to use?
 ```rust
 extern crate get_local_ip;
 
+use get_local_ip::get;
+
 fn main() {
-  get_local_ip::get::to_string(); // print "127.0.0.1", "192.168.43.102"
+  // Example to use
+  println!("{:?}", get::to_string().unwrap());
 }
 ```
