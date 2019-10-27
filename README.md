@@ -1,6 +1,6 @@
 # local_ip
 
-✨ Simple was made with rust, to get your local ip.
+✨ Simple library was made with rust, to get your local ip.
 
 ## Getting Started.
 
@@ -20,5 +20,7 @@ use get_local_ip::get;
 fn main() {
   // Example to use
   println!("{:?}", get::to_string().unwrap());
+  // output
+  // "{\"local\":\"127.0.0.1\",\"network\":\"192.168.43.102\"}"
 }
 ```
