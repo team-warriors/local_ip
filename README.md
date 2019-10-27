@@ -8,7 +8,7 @@
 
 ```
 [dependencies]
-get_local_ip = "0.1.0"
+get_local_ip = "0.1.1"
 ```
 
 + How to use?
