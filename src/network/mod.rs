@@ -5,7 +5,7 @@ use std::process::Command;
 use regex::Regex;
 use serde_json::{json};
 
-pub fn to_string() -> Option<String> {
+pub fn ip() -> Option<String> {
   let output = Command::new("ifconfig")
     .output()
     .expect("Failed to execute `ifconfig`");

@@ -1,13 +1,13 @@
-pub mod get;
+pub mod network;
 
 #[cfg(test)]
 mod tests {
     use super::*;
-    use get;
+    use network;
 
     #[test]
-    fn test_get_to_string() {
-        let res = get::to_string();
+    fn test_network_ip() {
+        let res = network::ip();
         println!("res: {:?}", res);
         assert!(res.is_some());
     }
